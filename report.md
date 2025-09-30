@@ -13,7 +13,8 @@ In this section, I created and tested a series of passwords, progressively incre
 
 **1. Password: `nishant`**
 * **Screenshot of Result:**
-    * [Insert your screenshot for 'nishant' here - Screenshot (203).png]
+  
+     ![Result for nishant](./screenshots/01_very-weak-password.png)
 * **Score:** 8% (Very Weak)
 * **Analysis:** The tool rated this password as "Very Weak." It is short, consists only of lowercase letters, and is based on personal information. It fails to meet minimum requirements for numbers, symbols, and uppercase letters, making it extremely vulnerable.
 
@@ -21,7 +22,8 @@ In this section, I created and tested a series of passwords, progressively incre
 
 **2. Password: `nishant123`**
 * **Screenshot of Result:**
-    * [Insert your screenshot for 'nishant123' here - Screenshot (205).png]
+  
+     ![Result for nishant123](./screenshots/02_good-password.png)
 * **Score:** 42% (Good)
 * **Analysis:** By adding a common number sequence, the score improved significantly to "Good." The password now includes lowercase letters and numbers, but it still lacks uppercase letters and symbols. The pattern is also highly predictable.
 
@@ -29,7 +31,8 @@ In this section, I created and tested a series of passwords, progressively incre
 
 **3. Password: `nishant@123`**
 * **Screenshot of Result:**
-    * [Insert your screenshot for 'nishant@123' here - Screenshot (206).png]
+  
+     ![Result for nishant@123](./screenshots/03_strong-password.png)
 * **Score:** 64% (Strong)
 * **Analysis:** The introduction of a single symbol (`@`) increased the password's complexity and pushed the score into the "Strong" category. It now contains three of the four recommended character types.
 
@@ -37,15 +40,17 @@ In this section, I created and tested a series of passwords, progressively incre
 
 **4. Password: `Nishant@1234`**
 * **Screenshot of Result:**
-    * [Insert your screenshot for 'Nishant@1234' here - Screenshot (207).png]
+  
+     ![Result for Nishant@1234](./screenshots/04_very-strong-password.png)
 * **Score:** 100% (Very Strong)
-* **Analysis:** By adding an uppercase letter at the beginning and increasing the length, this password achieved a perfect score of 100%. [cite_start]It meets all the minimum requirements: length, uppercase, lowercase, numbers, and symbols[cite: 60].
+* **Analysis:** By adding an uppercase letter at the beginning and increasing the length, this password achieved a perfect score of 100%. It meets all the minimum requirements: length, uppercase, lowercase, numbers, and symbols.
 
 ---
 
 **5. Password: `Nishant$-1234@4321!`**
 * **Screenshot of Result:**
-    * [Insert your screenshot for 'Nishant$-1234@4321!' here - Screenshot (208).png]
+  
+     ![Result for Nishant$-1234@4321!](./screenshots/05_very-strong-passphrase.png)
 * **Score:** 100% (Very Strong)
 * **Analysis:** While the previous password also scored 100%, this one is significantly more secure in practice. Its greater length (18 characters) and use of multiple, varied symbols make it far more resistant to brute-force attacks than the shorter version.
 
@@ -66,4 +71,5 @@ From this evaluation, the key takeaways for creating strong passwords are:
 * **Avoid Personal Information:** Never use your name, birthdate, or other easily guessable details.
 * **Use a Unique Password for Every Account:** This prevents a breach on one site from compromising your other accounts.
 * **Enable Multi-Factor Authentication (MFA):** As a crucial second layer of security, MFA protects your account even if your password is stolen.
+
 * **Use a Password Manager:** These tools help generate and store extremely strong, unique passwords for all your accounts securely.
